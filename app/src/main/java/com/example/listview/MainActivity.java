@@ -48,7 +48,8 @@ public class MainActivity extends AppCompatActivity {
         buttonClear.setOnClickListener(new View.OnClickListener() {
             public  void  onClick(View v) {
                 taskList.clear();
-                adapter.notifyDataSetChanged();
+                adapter.notifyDataSetChanged();//teste
+
             }
                                        }
         );
